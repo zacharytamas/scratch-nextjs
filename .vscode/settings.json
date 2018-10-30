@@ -1,0 +1,8 @@
+{
+  "files.trimTrailingWhitespace": true,
+  "tslint.autoFixOnSave": true,
+  "editor.codeActionsOnSave": { "source.organizeImports": true },
+  "editor.formatOnSave": true,
+  "files.trimFinalNewlines": true,
+  "createTests.testDirectoryName": "__tests__"
+}
