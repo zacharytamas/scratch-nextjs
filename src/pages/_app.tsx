@@ -1,7 +1,13 @@
 import App from 'next/app';
 import { withRouter } from 'next/router';
-import React from 'react';
 import { ScratchRoot } from '../components/ScratchRoot';
+
+// TODO(zachary) This custom app does some things that are probably no longer needed
+// but were helpful in earlier versions of Next.js. I let this repository age without
+// changes for several years and have just now (Nov 2022) started to catch it up to
+// the latest versions of its dependencies. I suspect these things aren't needed
+// anymore due changes/improvements to Next's router. Especially given the major
+// router overhaul for layouts and such announced in Next 13.
 
 export interface IRouterUrlSummary {
   asPath?: string;
